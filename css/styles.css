@@ -47,7 +47,11 @@ line-height: 1.2;
 .nav .link:hover, 
 .nav .link:focus,
 .contacts .link:hover, 
-.contacts .link:focus {
+.contacts .link:focus,
+.page-footer .mail:hover,
+.page-footer .tel:hover,
+.page-footer .mail:focus,
+.page-footer .tel:focus {
     color: var(--effect-textcolor);
 }
 
@@ -82,7 +86,7 @@ text-transform: uppercase;
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
-
+    cursor: pointer;
 }
 
 .feature .title {
@@ -132,7 +136,7 @@ text-transform: uppercase;
     line-height: 1.2;
 }
 
-.contacts .address {
+.page-footer .address {
     color: var(--higtlite-color);
     font-style: normal;
     font-weight: 400;
@@ -160,6 +164,7 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
 }
 
 .filter .btn:hover,
