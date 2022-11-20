@@ -8,6 +8,7 @@
     --total-black: #000000;
     --buttun-color: #F5F4FA;
     --active-btn: #188CE8;
+    --additional-color: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -104,7 +105,7 @@ text-transform: uppercase;
 background-color: var(--active-btn);
 }
 
-.visually-hiden {
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -143,6 +144,9 @@ background-color: var(--active-btn);
     background-color: var(--buttun-color);
 }
 
+.team-item {
+    background-color: var(--background-color);
+}
 .team-member {
     color: var(--content-textcolor);
     font-weight: 500;
@@ -178,9 +182,8 @@ background-color: var(--active-btn);
 
 .footer-mail, 
 .footer-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--additional-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -195,6 +198,7 @@ background-color: var(--active-btn);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
@@ -214,7 +218,6 @@ color: var(--higtlite-color);
 
 .type {
     color: var(--main-textcolor);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
